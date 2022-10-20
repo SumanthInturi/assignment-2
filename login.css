@@ -15,7 +15,11 @@ body{
     width: 50vw;
     height: 100vh;
 }
-.paragraph-class{
+.topdiv h1{
+    padding-bottom: 20px;
+}
+.paragragh-class{
+    padding-bottom: 50%;
 }
 .class-a{
     background-color: #452b4e;
@@ -27,9 +31,10 @@ body{
     height: 100vh;
 }
 .topdiv{
-    flex-basis: 15%;
+    flex-basis: 20%;
     width: 60%;
     color: white;
+    margin-left: 8%;
     font-style: times new roman;
  
 }
@@ -62,18 +67,24 @@ body{
 }
 .bottomdiv{
     display: flex;
+    width: 60%;
+}
+.bottomdiv img{
+    margin-right: 10%;
 }
 .bottomdiv .appstore-img{
      left: 70%;
      margin-left: 10%;
      z-index: 2;
 }
+.bottomdiv .playstore-img{
+    margin-left: 6%;
+}
 .bottomdiv{
     top: 50%;
     flex-basis: 10%;
     width: 60%;
     /* border: 3px solid black; */
-    bottom:0px;
 }
 .class-b{
     display: flex;
@@ -86,21 +97,112 @@ body{
 .first{
     width: 50%;
     display: flex;
-    flex-basis: 20%;
+    flex-basis: 15%;
     flex-direction: column;
-    border: 3px solid black;
 }
 .second{
     width: 50%;
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 55%;
     flex-direction: column;
-    border: 3px solid black;
 }
 .third{
     width: 50%;
     display: flex;
     flex-basis: 10%;
-    border: 3px solid black;
+
+}
+.first p{
+    color: #808080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-class{
+        width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+
+    
+}
+.form-class button{
+    flex-basis: 7%;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 14px 0px;
+    text-align: center;
+    outline: none;
+    box-shadow: 0px 0px 10px #dfdfdf ;
+    border-radius: 10px;
 }
 
+.mesg-class{
+    flex-basis: 7%;
+}
+.mesg-p{
+    position: absolute;
+    background-color: white;
+    padding: 0px 20px;
+    top: -10px;
+    left: 50% ;
+    transform: translateX(-50%);
+}
+.textgap{
+    margin: 7% 0;
+    flex-basis: 7%;
+    border-top: 1px solid #b3b3b3;
+    color: #3c3c3c;
+    position: relative;
+}
+.username-class,.password-class{
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 18px;
+    border-radius: 10px;
+}
+.form-class .login{
+    background-color:#ff805d ;
+    color: white;
+}
+.username-class .userdetail,.password-class .passworddetails{
+    position: relative;
+    top: -75%;
+    left: 5%;
+}
+.username-class .userinput{
+    position: relative;
+    width: 100%;
+    left:-20px;
+    top: 50%;
+    background-color:#f5f5f5 ;
+    /* height: 100%; */
+    border: none;
+    outline: none;
+}
+.password-class .userpassword{
+    position: relative;
+    width: 100%;
+    left: -15px;
+    top: 50%;
+    background-color:#f5f5f5 ;
+    /* height: 100%; */
+    border: none;
+    outline: none;   
+}
+.register{
+    display: flex;
+    position: relative;
+}
+.register .forgot{
+    position: absolute;
+    right: 0%;
+}
+.third .register{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%) translateY(100%);
+
+}

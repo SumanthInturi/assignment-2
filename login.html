@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/a8d532f59b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main">
@@ -25,8 +26,41 @@
                     <h1>Log in to BelajarYuk.</h1><br>
                     <p>Welcome back! login with your data that you entered during registration</p>
                 </div>
-                <div class="second"></div>
-                <div class="third"></div>
+                <div class="second">
+                    <form method="post" class="form-class">
+                        <button class="google-button">
+                            <i class="fa-brands fa-google"></i>
+                            Login with Google</button>
+                        <button class="facebook-button">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            Login with Facebook</button>
+                        <div class="mesg-class">
+                            <div class="textgap"><p class="mesg-p">or</p></div>
+                        </div>
+                        <div class="username-class">
+                            <i class="fa-solid fa-envelope icon"></i>
+                            <p class="userdetail">Email</p>
+                            <input type="text" class="userinput" >
+                        </div>
+                        <div class="password-class">
+                            <i class="fa-solid fa-lock icon"></i>
+                            <p class="passworddetails">Password</p>
+                            <input type="password" class="userpassword">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <button class="login">Login</button>
+                        <div class="register">
+                            <input type="checkbox" name="remember" class="remember">
+                            <p>Remember me</p>
+                            <a href="" class="forgot">Forgot your password?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="third">
+                    <p class="register">
+                        Don't have an account? <a href="#">Register</a>
+                    </p>
+                </div>
              </div>
         </div>
     </div>
