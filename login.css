@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+}
+.main{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    box-sizing: border-box;
+}
+.class-a,.class-b{
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+}
+.paragraph-class{
+}
+.class-a{
+    background-color: #452b4e;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.topdiv{
+    flex-basis: 15%;
+    width: 60%;
+    color: white;
+    font-style: times new roman;
+ 
+}
+.circlediv{
+    display: flex;
+    flex-basis: 60%;
+    width: 60%;
+    background-color: #ff805d;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+.bottomdiv{
+    display: flex;
+}
+.image-1{
+    z-index: 1;
+    width: 50%;
+    top: -10%;
+    left: 5%;
+}
+.image-2{
+    top: 5%;
+    width: 60%;
+    right: 10%;
+
+}
+.circlediv img{
+    position: relative;
+    aspect-ratio: 1 /1;
+}
+.bottomdiv{
+    display: flex;
+}
+.bottomdiv .appstore-img{
+     left: 70%;
+     margin-left: 10%;
+     z-index: 2;
+}
+.bottomdiv{
+    top: 50%;
+    flex-basis: 10%;
+    width: 60%;
+    /* border: 3px solid black; */
+    bottom:0px;
+}
+.class-b{
+    display: flex;
+    flex-basis: 50%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    width: 50%;
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    border: 3px solid black;
+}
+.second{
+    width: 50%;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    border: 3px solid black;
+}
+.third{
+    width: 50%;
+    display: flex;
+    flex-basis: 10%;
+    border: 3px solid black;
+}
+
