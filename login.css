@@ -67,22 +67,24 @@ body{
 }
 .bottomdiv{
     display: flex;
+    position: relative;
     width: 60%;
 }
 .bottomdiv img{
     margin-right: 10%;
 }
 .bottomdiv .appstore-img{
-     left: 70%;
-     margin-left: 10%;
-     z-index: 2;
+ position: absolute;
+ left: 40%;
 }
 .bottomdiv .playstore-img{
-    margin-left: 6%;
+    position: absolute;
+
 }
 .bottomdiv{
-    top: 50%;
+    /* top: 50%; */
     flex-basis: 10%;
+    position: relative;
     width: 60%;
     /* border: 3px solid black; */
 }
@@ -114,6 +116,7 @@ body{
 }
 .first p{
     color: #808080;
+    font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .form-class{
@@ -122,12 +125,11 @@ body{
         display: flex;
         text-align: center;
         flex-direction: column;
-        justify-content: space-around;
-
-    
+        justify-content: space-around;   
 }
 .form-class button{
     flex-basis: 7%;
+    font-size: medium;
     width: 100%;
     border: none;
     background-color: #ffffff;
@@ -169,8 +171,9 @@ body{
 }
 .username-class .userdetail,.password-class .passworddetails{
     position: relative;
+    font-size: small;
     top: -75%;
-    left: 5%;
+    left: 2%;
 }
 .username-class .userinput{
     position: relative;
@@ -178,17 +181,15 @@ body{
     left:-25px;
     top: 50%;
     background-color:#f5f5f5 ;
-    /* height: 100%; */
     border: none;
     outline: none;
 }
 .password-class .userpassword{
     position: relative;
     width: 100%;
-    left: -47px;
+    left: -45px;
     top: 50%;
     background-color:#f5f5f5 ;
-    /* height: 100%; */
     border: none;
     outline: none;   
 }
@@ -200,9 +201,17 @@ body{
     position: absolute;
     right: 0%;
 }
+.logo-images{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    transform: translateX(-150%);
+}
 .third .register{
     position: absolute;
     left:50%;
     transform: translateX(-50%) translateY(100%);
-
+}
+.remembering{
+    font-weight: lighter;
 }
