@@ -128,6 +128,7 @@ body{
         justify-content: space-around;   
 }
 .form-class button{
+    margin-top: 10px;
     flex-basis: 7%;
     font-size: medium;
     width: 100%;
@@ -160,6 +161,7 @@ body{
     position: relative;
 }
 .username-class,.password-class{
+    margin-top: 10px;
     display: flex;
     background-color: #f5f5f5;
     padding: 18px;
@@ -200,6 +202,7 @@ body{
 .register .forgot{
     position: absolute;
     right: 0%;
+    margin-left: 50%;
 }
 .logo-images{
     position: absolute;
@@ -214,4 +217,5 @@ body{
 }
 .remembering{
     font-weight: lighter;
+    margin-right: 60%;
 }
