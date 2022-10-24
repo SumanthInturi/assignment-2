@@ -155,8 +155,8 @@ body{
 }
 .textgap{
     margin: 7% 0;
-    flex-basis: 7%;
     border-top: 1px solid #b3b3b3;
+    flex-basis: 7%;
     color: #3c3c3c;
     position: relative;
 }
