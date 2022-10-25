@@ -219,3 +219,16 @@ body{
     font-weight: lighter;
     margin-right: 60%;
 }
+@media  (max-width:768px) {
+    .main{
+        flex-wrap: wrap;
+    }
+    .class-a{
+        flex-basis: 100%;
+        height: 100vh;
+    }
+    .class-b{
+        flex-basis: 100%;
+        height: 100vh;
+    }
+}
